@@ -2,7 +2,13 @@
 
 This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision tasks: Semantic Segmentation (VOC), Object Detection (COCO), and Image Classification (Imagenette). A key feature of this system is the implementation of Experience Replay to mitigate catastrophic forgetting during sequential training.
 
-# Report Notion Link : https://www.notion.so/Unified-OneHead-Multi-Task-Challenge-2119b32cdbea801594f9c7370784ab36?source=copy_link
+# Report Notion Link :
+
+https://www.notion.so/Unified-OneHead-Multi-Task-Challenge-2119b32cdbea801594f9c7370784ab36?source=copy_link
+
+# Colab Link :
+
+https://colab.research.google.com/drive/1583wthWhqaWKp67YzONm-BwBVPUAoQQr?usp=sharing
 
 # Features
 
