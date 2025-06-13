@@ -95,12 +95,17 @@ Once the notebook is open, click on Runtime -> Run all in the Colab menu.
 Alternatively, you can execute each cell sequentially from top to bottom.
 The notebook is structured into logical sections (similar to the "Cells" mentioned in your original prompt) that handle:
 
-Installation and Imports: Installing libraries and importing necessary modules.
-Dataset Preparation: The automated download and organization of data.
-Model Definitions: The UnifiedModel architecture and custom Dataset classes.
-Training Engines and Utilities: Functions for training each stage and evaluating performance.
-Experiment Execution: The main sequential training process with experience replay.
-Results Analysis and Plotting: Generating summary statistics and visualizations of training loss and performance metrics.
+1.Installation and Imports: Installing libraries and importing necessary modules.
+
+2.Dataset Preparation: The automated download and organization of data.
+
+3.Model Definitions: The UnifiedModel architecture and custom Dataset classes.
+
+4.Training Engines and Utilities: Functions for training each stage and evaluating performance.
+
+5.Experiment Execution: The main sequential training process with experience replay.
+
+6.Results Analysis and Plotting: Generating summary statistics and visualizations of training loss and performance metrics.
 
 # Contact
 If you encounter any issues or have questions, please reach out via Moodle or email to jooj30136@gmail.com.
