@@ -1,6 +1,6 @@
 ## DL_Report2 
 
-##Unified-OneHead Multi-Task Challenge 
+## Unified-OneHead Multi-Task Challenge 
 
 This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision tasks: Semantic Segmentation (VOC), Object Detection (COCO), and Image Classification (Imagenette). A key feature of this system is the implementation of Experience Replay to mitigate catastrophic forgetting during sequential training.
 
@@ -38,7 +38,7 @@ Training Visualization: Automatically generates plots to visualize training loss
 
 Here's a README.md for your project, combining information from the provided code snippets.
 
-Multi-Task Learning with Experience Replay
+# Multi-Task Learning with Experience Replay
 
 This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision 
 
