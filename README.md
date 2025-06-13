@@ -68,20 +68,23 @@ Clean up temporary raw download files to save space.
 No manual download or extraction steps are needed outside of running the Colab notebook cells.
 
 # Datasets Structure
+
+```text
 .
 ├── data/
 │   ├── imagenette_160/             # Prepared Imagenette data
 │   │   ├── train/
 │   │   └── val/
-│   ├── mini_coco_det/            # Prepared mini COCO detection data
+│   ├── mini_coco_det/              # Prepared mini COCO detection data
 │   │   ├── train/
 │   │   ├── val/
 │   │   └── annotations/
-│   ├── mini_voc_seg/             # Prepared mini VOC segmentation data
+│   ├── mini_voc_seg/               # Prepared mini VOC segmentation data
 │   │   ├── train/
 │   │   └── val/
-│   └── raw_downloads/            # (Temporary) Raw downloaded data
+│   └── raw_downloads/              # (Temporary) Raw downloaded data
 
+```
 # Open and Execute the Colab Notebook
 Access the Notebook:
 
