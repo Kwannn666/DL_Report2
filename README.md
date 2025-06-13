@@ -36,8 +36,6 @@ Performance Monitoring: Tracks model parameters, inference time, and performance
 
 Training Visualization: Automatically generates plots to visualize training loss and metric evolution across all stages.
 
-Here's a README.md for your project, combining information from the provided code snippets.
-
 # Multi-Task Learning with Experience Replay
 
 This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision 
