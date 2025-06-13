@@ -13,19 +13,40 @@ https://colab.research.google.com/drive/1583wthWhqaWKp67YzONm-BwBVPUAoQQr?usp=sh
 # Features
 
 Unified Model Architecture: A single UnifiedModel is designed with a MobileNetV3 backbone, a Feature Pyramid Network (FPN) neck, and a shared single-branch head that outputs predictions for all three tasks.
+
 Sequential Training: The model is trained in stages:
+
 Stage 1: Semantic Segmentation
+
 Stage 2: Object Detection (with replay of segmentation data)
+
 Stage 3: Image Classification (with replay of segmentation data)
-Experience Replay: To combat catastrophic forgetting, a portion of the original segmentation training data is replayed during the subsequent detection and classification stages. This helps maintain the model's performance on previously learned tasks.
-Automated Data Preparation: A dedicated script handles the downloading, extraction, and organization of mini versions of the Imagenette, PASCAL VOC, and COCO datasets.
-Comprehensive Evaluation: The training process includes evaluation metrics for each task (mIoU for segmentation, mAP and Top-1 accuracy for classification).
+
+Experience Replay: To combat catastrophic forgetting, a portion of the original segmentation training data is replayed during the subsequent detection 
+
+and classification stages. This helps maintain the model's performance on previously learned tasks.
+
+Automated Data Preparation: A dedicated script handles the downloading, extraction, and organization of mini versions of the Imagenette, PASCAL VOC, and 
+
+COCO datasets.
+
+Comprehensive Evaluation: The training process includes evaluation metrics for each task (mIoU for segmentation, mAP and Top-1 accuracy for 
+
+classification).
+
 Performance Monitoring: Tracks model parameters, inference time, and performance drops across stages to ensure compliance with predefined requirements.
+
 Training Visualization: Automatically generates plots to visualize training loss and metric evolution across all stages.
+
 Here's a README.md for your project, combining information from the provided code snippets.
 
 Multi-Task Learning with Experience Replay
-This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision tasks: Semantic Segmentation (VOC), Object Detection (COCO), and Image Classification (Imagenette). A key feature of this system is the implementation of Experience Replay to mitigate catastrophic forgetting during sequential training.
+
+This repository contains Python code for a multi-task learning system that sequentially trains a single unified model on three distinct computer vision 
+
+tasks: Semantic Segmentation (VOC), Object Detection (COCO), and Image Classification (Imagenette). A key feature of this system is the implementation 
+
+of Experience Replay to mitigate catastrophic forgetting during sequential training.
 
 #  How to Run
 
